@@ -16,7 +16,7 @@ const bands = [
 ];
 
 
-const list = document.getElementById("list");
+const list = document.getElementById("bands");
 
 function cleanTitle(title) {
   return title.replace(/^(a |an |the )/i, "").trim();
